@@ -7,18 +7,26 @@
 - MySQL Connector Java
 ## Installation
 
-1. Run command on the root folder
+### 1. Requiriments
+ 
+ - [Maven](https://maven.apache.org/install.html) 
+ - [JDK 16](https://www.oracle.com/br/java/technologies/javase/jdk16-archive-downloads.html)
 
-```bash
-$  mvn package
-```
-## Running
+### 2. Building
 
-To run the app
+2.1. To build the project run this command inside the project folder. This command will build the Java executable.
 
-```bash
-$  mvn spring-boot:run 
-```
+`mvn compile` 
+
+Inside the project folder yet! To download and install all maven dependencies, run this command  bellow
+
+`mvn install`
+
+### 4. Running
+
+To run after build, type this command in the terminal inside the project folder.
+
+`java -jar target/processo-seletivo-0.0.1-SNAPSHOT.jar`
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
