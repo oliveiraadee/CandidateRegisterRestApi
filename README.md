@@ -26,6 +26,10 @@ Inside the project folder yet! To download and install all maven dependencies, r
 
 To run after build, type this command in the terminal inside the project folder.
 
+`mvn spring-boot:run`
+
+or
+
 `java -jar target/processo-seletivo-0.0.1-SNAPSHOT.jar`
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
