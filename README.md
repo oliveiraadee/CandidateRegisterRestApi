@@ -22,7 +22,7 @@ Inside the project folder yet! To download and install all maven dependencies, r
 
 `mvn install`
 
-### 4. Running
+### 3. Running
 
 To run after build, type this command in the terminal inside the project folder.
 
@@ -31,6 +31,26 @@ To run after build, type this command in the terminal inside the project folder.
 or
 
 `java -jar target/processo-seletivo-0.0.1-SNAPSHOT.jar`
+
+### 4. Endpoints
+
+#### GET 
+
+`http://localhost:8080/users`
+
+#### GET BY ID
+
+`http://localhost:8080/users/{id}`
+
+#### DELETE BY ID
+
+`http://localhost:8080/users/{id}`
+
+#### PUT BY ID
+
+`http://localhost:8080/users/{id}`
+
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 

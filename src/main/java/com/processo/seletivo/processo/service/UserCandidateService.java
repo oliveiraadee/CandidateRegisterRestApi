@@ -33,10 +33,21 @@ public class UserCandidateService {
         }
         return userCandidates;
     }
-
     public UserCandidate save(UserCandidate userCandidate){
 
         return userCandidateRepository.save(userCandidate);
     }
+    public void remove(Long id){
+         userCandidateRepository.deleteById(id);
+    }
+    public UserCandidate update(Long id, UserCandidate userCandidate){
 
+        Optional<UserCandidate> userCandidate1 = userCandidateRepository.findById(id);
+
+        if(userCandidate1 != null){
+            userCandidate.setId(id);
+            userCandidateRepository.save(userCandidate);
+        }
+        return userCandidate;
+    }
 }
