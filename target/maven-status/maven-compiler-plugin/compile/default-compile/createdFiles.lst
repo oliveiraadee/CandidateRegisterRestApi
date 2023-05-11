@@ -1,0 +1,6 @@
+com/processo/seletivo/processo/repository/UserCandidateJPARepository.class
+com/processo/seletivo/processo/ProcessoSeletivoApplication.class
+com/processo/seletivo/processo/entity/UserCandidate$UserCandidateBuilder.class
+com/processo/seletivo/processo/entity/UserCandidate.class
+com/processo/seletivo/processo/service/UserCandidateService.class
+com/processo/seletivo/processo/webservice/UserCandidateWebService.class
